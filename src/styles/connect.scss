@@ -1,0 +1,14 @@
+.connection-page-container{
+    display: flex;
+    min-height: 100vh;
+   .form-column, .img-column{
+        width: 100%;
+        position: relative;
+        min-height: 100%;
+    }
+    .form-column{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }   
+}
